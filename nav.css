@@ -18,9 +18,13 @@ body{
     padding: 1rem 0 1rem 2rem;
     position: fixed;
     width: 100%;
-    background-color: rgb(240, 182, 240);
-    border-bottom: 7px;
-    border-color: black;
+    background-color: transparent;
+    /* border-bottom: 7px;
+    border-color: black; */
+}
+
+.nav-box:hover{
+    background-color: white;
 }
 
 .nav-box-logo{
@@ -38,11 +42,20 @@ body{
     position: relative;
     margin-left: 10%;
     width: 60%;
+    /* font-size: 1.2rem;
+    font-weight: 600; */
+}
+
+.nav-box-category-btn{
+    /* cursor: pointer; */
     font-size: 1.2rem;
     font-weight: 600;
+    border: none;
+    background-color: transparent;
+    color: #444444;
+    text-decoration-line: none;
 }
 
-.nav-box-category-text{
-    cursor: pointer;
+.nav-box-category-btn:hover{
+    color: black;
 }
-

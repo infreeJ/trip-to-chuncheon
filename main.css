@@ -1,8 +1,9 @@
 .background{
-    background-color: rgb(240, 182, 240);
+    background-color: rgb(167, 178, 243);
     width: 105vw;
     height: 65vh;
     position: absolute;
+    top: -10px;
     left: -10px;
     /* top: px; */
     z-index: 0;
@@ -41,27 +42,102 @@
     z-index: 10;
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     justify-content: center;
-    align-items: center;
-    gap: 50px;
+    /* align-items: center; */
+    gap: 20px;
     position: relative;
     top: -40px;
+    left: 20px;
 }
 
 .main-textbox-subtitle{
     font-size: 1.1rem;
     font-weight: 300;
     height: 1.7rem;
-    width: auto;
+    /* width: 1.2rem; */
+    width: 120px;
     background-color: black;
     color: white;
     border-radius: 10px;
+    text-align: center;
 }
 
 
 .main-textbox-title{
     font-size: 2rem;
-    
+    margin-top: 20px;
+    font-weight: 700;
+    color: #444444;
 
+}
+
+.main-textbox-detail{
+    /* cursor: pointer; */
+    /* position: relative;
+    left: -50px; */
+    width: 85px;
+    border: none;
+    border-bottom: 1px solid #666666;
+    background-color: transparent;
+    font-size: 1rem;
+    color: #444444;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.main-textbox-progress{
+    position: relative;
+    top: 170px;
+    display: flex;
+    gap: 6px;
+    
+}
+
+.main-textbox-progress-bar{
+    appearance: none;
+    position: relative;
+    top: 12px;
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.main-textbox-progress-bar::-webkit-progress-bar{
+    background-color: #999999;
+    border-radius: 8px;
+    height: 2px;
+}
+
+.main-textbox-progress-bar::-webkit-progress-value{
+    background-color: #444444;
+    border-radius: 8px;
+    height: 2px;
+}
+
+.main-textbox-progress-num{
+    font-size: 1.1rem;
+    margin-right: 25px;
+    margin-top: 6px;
+}
+
+.main-textbox-progress-previous{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 1.6rem;
+}
+
+.main-textbox-progress-stop{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 1.6rem;
+}
+
+.main-textbox-progress-next{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 1.6rem;
 }
