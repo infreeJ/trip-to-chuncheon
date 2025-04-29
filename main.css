@@ -1,0 +1,38 @@
+.background{
+    background-color: rgb(240, 182, 240);
+    width: 100vw;
+    height: 65vh;
+    position: absolute;
+    left: -10px;
+    /* top: px; */
+    z-index: 0;
+}
+
+
+.main-imgbox{
+    width: 50%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    position: relative;
+    top: 150px;
+    left: 850px;
+    border-radius: 7px;
+}
+
+.main-imgbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.main-textbox{
+    width: 360px;
+    height: 250px;
+    position: absolute;
+    z-index: 10;
+    top: 240px;
+    left: 380px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}

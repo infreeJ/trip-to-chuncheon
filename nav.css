@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    width: 100vw;
+    /* height: 150px; */
+    position: relative;
+    top: -10px;
+    left: -10px;
+    z-index: 10;
+}
+
+.nav-box{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(240, 182, 240);
+    border-bottom: 7px;
+    border-color: black;
+}
+
+.nav-box-logo{
+    background-image: url(imgs/logo.jpg);
+    width: 150px;
+    height: 70px;
+    background-size: 150px auto;
+    background-repeat: no-repeat;
+    
+}
+
+.nav-box-category{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-left: 10%;
+    width: 60%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.nav-box-category-text{
+    cursor: pointer;
+}
+
